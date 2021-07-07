@@ -1,0 +1,24 @@
+.mainpage {
+  background-color: grey;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .mainpage {
+    background-color: rgb(99, 98, 98);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mainpage {
+    background-color: rgb(78, 77, 77);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mainpage {
+    background-color: rgb(54, 54, 54);
+  }
+}
