@@ -1,0 +1,7 @@
+.bottombar {
+  border: 1px solid white;
+}
+.gridlayout {
+  grid-row-start: 10;
+  grid-row-end: 10;
+}

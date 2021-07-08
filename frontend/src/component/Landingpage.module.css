@@ -5,9 +5,15 @@
   margin: auto;
 }
 
-@media screen and (max-width: 900px) {
+.gridlayout {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+@media screen and (max-width: 450px) {
   .mainpage {
-    background-color: rgb(99, 98, 98);
+    background-color: rgb(54, 54, 54);
   }
 }
 
@@ -17,8 +23,8 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 900px) {
   .mainpage {
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(99, 98, 98);
   }
 }

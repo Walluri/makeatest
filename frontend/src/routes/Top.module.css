@@ -1,0 +1,7 @@
+.topbar {
+  border: 1px solid white;
+}
+
+.gridlayout {
+  grid-row: 1 / 1;
+}

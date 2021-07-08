@@ -1,9 +1,3 @@
-:earth_americas: https://master.dx0m05ulfbl2l.amplifyapp.com/
+This website is hosted at : https://master.dx0m05ulfbl2l.amplifyapp.com/
 
-<<<<<<< HEAD
-The production url : https://github.com/Walluri/portfolio
-
-Important Packages : "autoprefixer,concat,npm-run-all,postcss-cli"
-=======
-This website is hosted in AWS Amplify :green_heart:.
->>>>>>> 2944bc480e6615933cdc0578757dbebfae0cb4ab
+Users can login with Google and create Tests with Questions and Answers.
