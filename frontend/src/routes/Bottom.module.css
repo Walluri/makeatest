@@ -3,5 +3,6 @@
 }
 .gridlayout {
   grid-row-start: 10;
-  grid-row-end: 10;
+  grid-row-end: 11;
+  grid-column: 1/11;
 }
