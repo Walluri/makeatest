@@ -2,7 +2,8 @@
   border: 1px solid white;
 }
 .gridlayout {
-  grid-row-start: 10;
-  grid-row-end: 11;
+  grid-row: 10 / 11;
   grid-column: 1/11;
+  justify-self: center;
+  align-self: center;
 }

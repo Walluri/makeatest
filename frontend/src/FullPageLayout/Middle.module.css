@@ -1,0 +1,9 @@
+.middlebar {
+  border: 1px solid white;
+}
+.gridlayout {
+  grid-row: 2 / 10;
+  grid-column: 1/11;
+  justify-self: center;
+  align-self: center;
+}

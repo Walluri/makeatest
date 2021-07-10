@@ -1,8 +1,0 @@
-.middlebar {
-  border: 1px solid white;
-}
-.gridlayout {
-  grid-row-start: 2;
-  grid-row-end: 10;
-  grid-column: 2/10;
-}

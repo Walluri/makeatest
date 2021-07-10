@@ -8,7 +8,10 @@
 .gridlayout {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
+
   grid-template-rows: repeat(10, 1fr);
+
+  gap: 0.3%;
 }
 
 @media screen and (max-width: 450px) {
