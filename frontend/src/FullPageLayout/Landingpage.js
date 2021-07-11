@@ -1,7 +1,7 @@
 import React from "react";
-import Top from "../FullPageLayout/Top";
-import Middle from "../FullPageLayout/Middle";
-import Bottom from "../FullPageLayout/Bottom";
+import Top from "./Top";
+import Middle from "./Middle";
+import Bottom from "./Bottom";
 
 import landingpagestyle from "./Landingpage.module.css";
 

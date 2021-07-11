@@ -1,4 +1,4 @@
-import Landingpage from "./LandingPageFrame/Landingpage";
+import Landingpage from "./FullPageLayout/Landingpage";
 function App() {
   return (
     <div className="App">
