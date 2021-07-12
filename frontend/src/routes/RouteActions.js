@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import CreateATest from "../pages/CreateATest";
 import ListTests from "../pages/ListTests";
 import Home from "../pages/Home";
@@ -17,7 +17,13 @@ function RouteActions() {
         <Route path="/take">
           <TakeATest />
         </Route>
-        <Route path="/">
+        <Route path="/" exact>
+          <Redirect to="/home"></Redirect>
+        </Route>
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route path="/*">
           <Home />
         </Route>
       </Switch>

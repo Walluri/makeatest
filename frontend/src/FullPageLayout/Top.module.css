@@ -5,6 +5,12 @@
 .gridlayout {
   grid-row: 1 / 2;
   grid-column: 1/11;
+  flex-direction: row;
   justify-self: center;
   align-self: center;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
 }

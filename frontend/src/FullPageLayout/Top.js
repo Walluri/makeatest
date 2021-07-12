@@ -4,7 +4,9 @@ import RouteLink from "../routes/RouteLink";
 
 function Top() {
   return (
-    <div className={`${styles.topbar} ${styles.gridlayout}`}>
+    <div
+      className={`${styles.topbar} ${styles.gridlayout} ${styles.flexContainer}`}
+    >
       <RouteLink />
     </div>
   );
