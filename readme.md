@@ -12,6 +12,7 @@ Service Workers - Targetting a progressive web app.
 Styling Concept : CSS Modules.
 
 ------------------- Technical Details.----------------------
+FRONT END
 
 1. How to get the client id from google ?
    1a . Login in to Google cloud console.
@@ -21,3 +22,9 @@ Styling Concept : CSS Modules.
    1e . The clientId and clientSecret are always accessible on the screen : APIs and Services / Credentials
 
    1f . Dont forget to give the re-direct uri : else the google button wont work completely.
+
+BACK END.
+
+1. API Gateway
+   1a. Create api
+2. AWS Lambda
