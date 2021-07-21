@@ -19,11 +19,9 @@ function Top() {
     };
     axios(loginObject)
       .then((response) => {
-        console.log("then");
         console.log(response);
       })
       .catch((failure) => {
-        console.log("catch");
         console.log(failure);
       });
   }
