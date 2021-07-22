@@ -23,8 +23,28 @@ FRONT END
 
    1f . Dont forget to give the re-direct uri : else the google button wont work completely.
 
-BACK END.
+------------------- Technical Details ---- BACK END----------------------
 
 1. API Gateway
-   1a. Create api
+   1.1 Create api
 2. AWS Lambda
+
+3. Using vs code extension : AWs Toolkit for writing AWS Lambda locally.
+   3.1 Install the extension AWS Toolkit locally.
+   3.2 Install docker for Windows + WSL also. This will have automatic file sharing.
+   3.3 Install AWS SAM cli for Windows
+   3.4 CTRL + SHIFT + P : to open the command pallet
+   3.5 Create a new AWS SAM Lambda application
+   3.6 Select the /function name / nodejs version / local src repository.
+   3.6 Open the local src repository in vs code.
+   3.7 DEBUGGING : After editing the index.js file, hit f5 : This will invoke your function.
+   3.8 You will be asked for a configuration.
+   3.9 Select the predefined 'aws lambda direct invocation'.
+   3.10 Note that you would need the AWS CLI to run the aws configure which will be used by SAM.
+   3.11 Outside your project there will be a gitignore and template.yaml file.
+   3.12 Run the command : sam deploy --guided
+   3.13 This will need the template.yaml file
+   3.14 Alternate way to create an app : Right click on the aws explorer/lambda and create a new app.
+   3.15 Use the option : Create lambda sam application - will be asked few question
+   3.16 Make changes and again right click on the lambda in aws explorer and say Deploy Sam Application.
+   3.17 right click to invoke and see th o/p below.
