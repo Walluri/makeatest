@@ -1,0 +1,74 @@
+{
+  resource: '/exams',
+  path: '/exams',
+  httpMethod: 'GET',
+  headers: 
+{
+    Accept: '*/*',
+    'Accept-Encoding': 'deflate, gzip',
+    Host: 'p83ga8gy65.execute-api.ap-south-1.amazonaws.com',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+    'X-Amzn-Trace-Id': 'Root=1-6100e4a0-11096cc320880c13174ee8ff',
+    'x-auth-token': 'e..HM4',
+    'X-Forwarded-For': '206.189.205.251',
+    'X-Forwarded-Port': '443',
+    'X-Forwarded-Proto': 'https',
+    'X-Real-IP': '157.48.87.238'
+},
+  multiValueHeaders: 
+{
+    Accept: [ '*/*' ],
+    'Accept-Encoding': [ 'deflate, gzip' ],
+    Host: [ 'p83ga8gy65.execute-api.ap-south-1.amazonaws.com' ],
+    'User-Agent': [
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36'
+    ],
+    'X-Amzn-Trace-Id': [ 'Root=1-6100e4a0-11096cc320880c13174ee8ff' ],
+    'x-auth-token': [
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYWthc2g0NDU1QGdtYWlsLmNvbSIsImlhdCI6MTYyNzQ0NjQzOSwiZXhwIjoxNjI3NDUwMDM5fQ.enGEv5zCuXkgPoPXQG09KDtOu2ui_A5RrnI_QmVGHM4'
+    ],
+    'X-Forwarded-For': [ '206.189.205.251' ],
+    'X-Forwarded-Port': [ '443' ],
+    'X-Forwarded-Proto': [ 'https' ],
+    'X-Real-IP': [ '157.48.87.238' ]
+},
+  queryStringParameters: null,
+  multiValueQueryStringParameters: null,
+  pathParameters: null,
+  stageVariables: null,
+  requestContext: 
+{
+    resourceId: 'lehmog',
+    authorizer: { principalId: 'prakash4455@gmail.com', integrationLatency: 333 },
+    resourcePath: '/exams',
+    httpMethod: 'GET',
+    extendedRequestId: 'DKipHGDUBcwFiZA=',
+    requestTime: '28/Jul/2021:05:01:20 +0000',
+    path: '/Prod/exams',
+    accountId: '156161099942',
+    protocol: 'HTTP/1.1',
+    stage: 'Prod',
+    domainPrefix: 'p83ga8gy65',
+    requestTimeEpoch: 1627448480538,
+    requestId: '10149104-b24c-424d-9bfb-c406f003cb5c',
+    identity: 
+{
+      cognitoIdentityPoolId: null,
+      accountId: null,
+      cognitoIdentityId: null,
+      caller: null,
+      sourceIp: '206.189.205.251',
+      principalOrgId: null,
+      accessKey: null,
+      cognitoAuthenticationType: null,
+      cognitoAuthenticationProvider: null,
+      userArn: null,
+      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+      user: null
+},
+    domainName: 'p83ga8gy65.execute-api.ap-south-1.amazonaws.com',
+    apiId: 'p83ga8gy65'
+},
+  body: null,
+  isBase64Encoded: false
+}

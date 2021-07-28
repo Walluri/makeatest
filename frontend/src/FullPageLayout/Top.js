@@ -5,11 +5,12 @@ import { GoogleLogin } from "react-google-login";
 import axios from "axios";
 
 function Top() {
-  function responseSuccessGoogle(response) {
+  async function responseSuccessGoogle(response) {
     const loginObject = {
-      url: "https://u5s616jrhd.execute-api.ap-south-1.amazonaws.com/prod/login",
+      url: "https://p83ga8gy65.execute-api.ap-south-1.amazonaws.com/Prod/login",
       method: "post",
       data: {
+        ////what ever you send as part of data will be in the body in the backend
         tokenid: response.tokenId,
       },
       //params: { paramkey: "paramvalue" },
@@ -17,13 +18,24 @@ function Top() {
       //   headerkey: "header value",
       // },
     };
-    axios(loginObject)
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((failure) => {
-        console.log(failure);
-      });
+    let res = await axios(loginObject);
+    console.log(res);
+
+    const userObject = {
+      url: "https://p83ga8gy65.execute-api.ap-south-1.amazonaws.com/Prod/exams",
+      method: "get",
+      headers: {
+        "x-auth-token": res.data.token,
+      },
+    };
+    let res2 = await axios(userObject);
+    console.log(res2);
+    // .then((response) => {
+    //   console.log(response);
+    // })
+    // .catch((failure) => {
+    //   console.log(failure);
+    // });
   }
 
   function responseFailureGoogle(failure) {

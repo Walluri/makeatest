@@ -1,0 +1,31 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"name": "login",
+		"path": "..\\awslocal\\login"
+	}
+],
+  "settings": {},
+  "launch": {
+    "configurations": [
+      {
+        "type": "aws-sam",
+        "request": "direct-invoke",
+        "name": "login:index.handler (nodejs14.x)",
+        "invokeTarget": {
+          "target": "code",
+          "projectRoot": "C:/Users/invasat/Desktop/awslocal/login/login",
+          "lambdaHandler": "index.handler"
+        },
+        "lambda": {
+          "runtime": "nodejs14.x",
+          "payload": {},
+          "environmentVariables": {}
+        }
+      }
+    ]
+  }
+}

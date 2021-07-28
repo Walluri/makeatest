@@ -1,0 +1,5 @@
+{
+  type: 'TOKEN',
+  methodArn: 'arn:aws:execute-api:ap-south-1:156161099942:p83ga8gy65/Prod/GET/exams',
+  authorizationToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYWthc2g0NDU1QGdtYWlsLmNvbSIsImlhdCI6MTYyNzQ0NjQzOSwiZXhwIjoxNjI3NDUwMDM5fQ.enGEv5zCuXkgPoPXQG09KDtOu2ui_A5RrnI_QmVGHM4'
+}
