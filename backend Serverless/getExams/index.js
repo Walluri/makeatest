@@ -1,5 +1,9 @@
 exports.handler = async (event) => {
-  console.log(event);
+  // use optional chaining ?.
+  let principalId = event?.requestContext?.authorizer?.principalId;
+
+  // use nullish coalescing operator
+  let email = principalId ?? "prakash4455@gmail.com";
   const response = {
     statusCode: 200,
     headers: {
@@ -9,7 +13,7 @@ exports.handler = async (event) => {
     },
     body: JSON.stringify({
       route: "get Exams",
-      email: event.requestContext.authorizer.principalId,
+      email,
     }),
   };
   return response;
